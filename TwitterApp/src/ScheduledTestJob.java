@@ -19,10 +19,11 @@ import twitter4j.auth.AccessToken;
 public class ScheduledTestJob implements Job {
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		
-		String consumer_key =  "DDG2KsFSMaiza1w1QkRGySR8U";
-		String consumer_secret = "uX7oQqJoR8fvaAmNYVgV6tL4TddgmnL4u7l75UKItdp48Opom6";
-		String access_token = "935448704802226177-DnVBSxS98pImTztRgd94hyOUGpH6hYT";
-		String access_token_secret = "xv1nKCSayygzv6ucZJzdhHNRxgDsI04EDi84xGFwkjlAw";
+		// INSERT KEYS FOR TWITTER ACCOUNT
+		String consumer_key =  "";
+		String consumer_secret = "";
+		String access_token = "";
+		String access_token_secret = "";
 		
 		// Add 
 		Client client = ClientBuilder.newClient();
